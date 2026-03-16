@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sorry Farwa</title>
+
+<style>
+body{
+background: linear-gradient(45deg,#ff9a9e,#fad0c4);
+text-align:center;
+font-family:Arial;
+padding:40px;
+overflow:hidden;
+}
+
+h1{
+color:#b30000;
+font-size:50px;
+}
+
+p{
+font-size:18px;
+line-height:1.8;
+width:80%;
+margin:auto;
+}
+
+button{
+margin-top:30px;
+padding:15px 30px;
+font-size:20px;
+border:none;
+border-radius:10px;
+background:#b30000;
+color:white;
+cursor:pointer;
+}
+
+button:hover{
+background:#ff1a1a;
+}
+
+/* hearts animation */
+.heart{
+position:absolute;
+color:red;
+font-size:20px;
+animation:fall 5s linear infinite;
+}
+
+@keyframes fall{
+0%{top:-10%;opacity:1}
+100%{top:110%;opacity:0}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>I'm Really Sorry Farwa ❤️</h1>
+
+<p>
+Farwa, I want to start by saying something that has been in my heart for a long time: I am truly and deeply sorry. These words may seem simple, but the feelings behind them are very real. I know that sometimes apologies cannot immediately fix the pain someone feels, and I understand that. Still, I want you to know that every word I am writing here comes from honesty and from a place in my heart that truly cares about you. When I think about the situation between us, I realize that I made mistakes, and I regret them more than I can properly explain. Hurting you was never my intention, but intentions do not erase the impact of actions, and I understand that now more clearly than ever.
+
+Farwa, you are someone who has always meant a lot to me. From the very beginning, there was something about your presence that felt special and comforting. Your smile, your kindness, the way you talk, and even the small things you do all leave an impression that stays in my mind. You might not realize it, but the way you carry yourself has always made the people around you feel valued and respected. That is one of the many reasons why I appreciate you so much. When I look back at the moments we shared, I remember laughter, conversations, and the feeling that things were simple and genuine between us.
+
+But sometimes, in life, people make mistakes. Sometimes words are said at the wrong time, emotions get misunderstood, and situations become more complicated than they should be. When I think about the moments that caused distance between us, I wish I could go back and handle things differently. If I had the chance to change the past, I would do it without hesitation. I would choose better words, better reactions, and better understanding. Unfortunately, life does not allow us to rewrite the past, but it does allow us to learn from it.
+
+Farwa, one of the hardest things for me is knowing that my actions might have caused you pain or disappointment. You deserve kindness, patience, and respect, and if I failed to give you that in any moment, I sincerely apologize. My intention was never to make you feel hurt, ignored, or unimportant. The truth is that you have always mattered to me more than you might think. Sometimes people do not express their feelings properly, and sometimes they only realize the importance of someone after things go wrong.
+
+During the time we were not talking properly, I spent many moments thinking about everything. I thought about the conversations we had, the memories we created, and the moments that made our connection meaningful. In those quiet moments of reflection, I understood something very important: people who truly matter in your life should never be taken for granted. They should be appreciated, respected, and valued every day.
+
+Farwa, I am not writing this message just to say sorry and move on. I am writing this because I genuinely want to make things better. I want to show you that I am capable of learning from my mistakes. Growth does not happen without realizing where we went wrong, and I have spent a lot of time reflecting on my actions and understanding how I could have handled things differently. I know that trust and understanding cannot be rebuilt overnight, but they can grow slowly with sincerity and patience.
+
+You have always been someone who inspires positivity around you. Even small conversations with you can brighten someone's day. There is a warmth in your personality that makes people feel comfortable and respected. That is a rare quality, and it is one of the reasons why your presence is so valuable. Losing the chance to talk to you or share moments with you would truly feel like losing something meaningful.
+
+Farwa, I also want you to know that apologizing is not a sign of weakness. It is a sign that someone values the relationship more than their pride. If my pride ever made me react the wrong way in the past, then I regret that deeply. What matters more than pride is understanding, kindness, and the willingness to fix what has been damaged.
+
+I respect your feelings and your space. If you needed time to process everything, that is completely understandable. Everyone heals and reflects in their own way. I do not want to rush your emotions or pressure you into anything. My only hope is that you can see the sincerity behind these words and understand that my apology is genuine.
+
+Farwa, life is full of lessons. Some lessons are easy, and some are difficult. This situation has taught me the importance of communication, patience, and empathy. It has reminded me that people’s feelings are precious and should never be ignored or misunderstood. If there is one thing I truly want from this experience, it is the chance to grow and become a better person.
+
+When I imagine the future, I do not think about perfection. Nobody is perfect, and mistakes will always be a part of life. What matters is how people choose to move forward after those mistakes. I want to move forward with honesty, understanding, and respect. I want to show through actions, not just words, that I value the people who are important in my life.
+
+Farwa, you are someone who deserves happiness, respect, and genuine care. I hope that in time you can see that my intentions are sincere and that my apology is coming from a real place in my heart. Even if it takes time, I hope that one day we can look back at this moment as something that helped us grow and understand each other better.
+
+Forgiveness is never something that can be demanded. It is something that is given freely when the heart feels ready. I understand that completely. All I can do is express my regret, take responsibility for my mistakes, and promise to do better in the future. Whether you decide to forgive me today, tomorrow, or later, I will respect your decision and your feelings.
+
+Farwa, thank you for taking the time to read these words. Writing this message was important to me because it allowed me to express feelings that are difficult to say in short conversations. Sometimes the heart needs more space to explain what it truly feels. My hope is simple: that you can see my sincerity, understand my regret, and know that you truly matter.
+
+No matter what happens next, I want you to know that I will always wish the best for you. Your happiness, your peace of mind, and your success are things I genuinely care about. If life gives us the chance to rebuild our understanding and friendship, I will be grateful for that opportunity and I will treat it with the respect it deserves.
+
+Once again, Farwa, I am truly sorry. I hope that these words can be a small step toward healing the distance between us and reminding you that you are valued, respected, and appreciated more than you might realize.
+</p>
+
+<button onclick="alert('Thank you for giving me another chance Farwa ❤️')">
+Forgive Me
+</button>
+
+<!-- Background music -->
+<audio autoplay loop>
+<source src="song.mp3" type="audio/mpeg">
+</audio>
+
+<!-- hearts animation -->
+<script>
+setInterval(function(){
+let heart=document.createElement("div");
+heart.className="heart";
+heart.innerHTML="❤️";
+heart.style.left=Math.random()*100+"%";
+heart.style.fontSize=(20+Math.random()*30)+"px";
+document.body.appendChild(heart);
+
+setTimeout(()=>{heart.remove();},5000);
+},500);
+</script>
+<!-- Background music -->
+<audio autoplay loop controls>
+  <source src="song.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+</body>
+</html> 
